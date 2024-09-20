@@ -35,7 +35,7 @@ function Room(props) {
 
     useEffect(() => {
         getRoom()
-    }, [])
+    }, [rooms])
 
 
 
