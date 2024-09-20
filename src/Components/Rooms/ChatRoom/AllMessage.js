@@ -31,7 +31,7 @@ function AllMessage(props) {
     }
     useEffect(() => {
         getMessage()
-    }, [])
+    }, [messages])
 
     if(!props.user)return <NavLink to={`/rooms`}>Go Back</NavLink>
 
